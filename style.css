@@ -62,3 +62,7 @@ footer{
         transform:rotateY(180deg);
 
     }
+    .pergunta-cartao, 
+    .resposta-cartao{
+        backface-visibility: hidden;
+    }
