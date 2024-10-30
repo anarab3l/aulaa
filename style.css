@@ -76,7 +76,7 @@ footer{
         height: 100%;
         width: 100%;
     }
-    .header{ 
+    header{ 
         padding: 2rem;
         display: flex;
         justify-content: space-around;
