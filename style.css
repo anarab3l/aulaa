@@ -8,7 +8,11 @@
 }
 body{
     background-color: var(--fundo);
-}
+} 
+header a{
+    color: var(--branco);
+    text-decoration: none;
+ }
 footer{
     position: fixed;
     bottom: 0;
@@ -78,8 +82,3 @@ footer{
         justify-content: space-around;
         background-color: var(--destaque);
     }
- 
- header a{
-    color: var(--branco);
-    text-decoration: none;
- }
