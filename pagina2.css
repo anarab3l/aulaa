@@ -35,4 +35,5 @@ header{
 .cartao{
     background-color: var(--cartao-frente);
     padding: 40px;
+    box-shadow: Spx 5px 5px var(--preto);
 }
