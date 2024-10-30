@@ -18,7 +18,7 @@ function criaCartao(categoria, pergunta, resposta) {
 
     function viraCartao (){
         respostaEstaVisivel;
-        cartao.classlist.toggle('active', respostaEstaVisivel);
+        cartao.classList.toggle('active', respostaEstaVisivel);
     }
 
     cartao.addEventListener('click', viraCartao);
