@@ -27,3 +27,8 @@ header{
     justify-content: space-around;
     background-color: var(--destaque);
 }
+#container{
+    padding: 40px;
+    display: grid;
+    gap: 2rem;
+}
