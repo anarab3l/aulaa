@@ -21,7 +21,7 @@ function mostaResposta (card) {
     if (resposta.style.display==='none'){
         resposta.style.display='block';
     }
-}
-else{
-    reposta.style.display = 'none';
+    else{
+        reposta.style.display = 'none';
+    }
 }
