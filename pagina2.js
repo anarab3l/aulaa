@@ -2,9 +2,8 @@ function criaCartao(categoria, pergunta, resposta) {
     let container = document.getElementById('container');
     let cartao = document.createElement('article');
     cartao.className = 'cartao';
-    onclick= "mostrarResposta(this)"
     cartao.innerHTML = `
-    <div class="conteudo-cartao">
+    <div class="conteudo-cartao" onclick= "mostrarResposta(this)">
        <h3>${categoria}</h3>
        <div class="pergunta-cartao">
            <p>${pergunta}</p>
