@@ -22,6 +22,6 @@ function mostaResposta (card) {
         resposta.style.display='block';
     }
     else{
-        reposta.style.display = 'none';
+        resposta.style.display = 'none';
     }
 }
